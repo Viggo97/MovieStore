@@ -274,3 +274,10 @@ nav .menu li a:hover {
     transform: translateY(-12px);
     transition: all ease 0.4s;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+}

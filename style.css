@@ -283,13 +283,15 @@ footer {
 }
 
 .contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-box {
     width: 90%;
     max-width: 500px;
     background: #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: 50px;
     padding: 20px 40px;
     box-sizing: border-box;
     border-radius: 8px;
@@ -334,6 +336,7 @@ footer {
   justify-content: center;
   align-items: center;
   transform: translate(50%);
+  border-radius: 30px;;
 }  
 
 .contact-btn:hover {

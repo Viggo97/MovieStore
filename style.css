@@ -85,6 +85,7 @@ nav .menu li a:hover {
 }
 
 .latest-container h1 {
+    font-size: 1.5rem;
     margin-left: 20px;
     padding-top: 10px;
 }
@@ -147,5 +148,55 @@ nav .menu li a:hover {
     transition: all ease 0.4s;
 }
 
+.popular-container {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.13);
+}
 
+.popular-container h1 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.popular-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 20px; 
+}
+
+.popular-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.popular-box img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.popular-box a {
+    text-align: center;
+    display: block;
+    font-weight: 800;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3a3a3a;
+    margin: 20px;
+}
+
+.popular-box:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.4s;
+}
 
